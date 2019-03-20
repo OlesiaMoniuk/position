@@ -58,7 +58,6 @@ textarea {
 .container {
 	background: #E0DEDE;
 	color: white;
-	text-align: center;
 	font-size: 30px;
 	width: 80%;
 	height: 80%;
@@ -70,31 +69,46 @@ textarea {
 	left: 0;
 	padding: 22px;
 }
-.item1 {
+.item5 {
 	background: #C27BA0;
-	width: 50%;
+	width: 30%;
 	height: 115px;
 	line-height: 115px;
 	white-space: nowrap;
+	display: inline-block;
+	top: 22px;
+	left: 22px;
 }
-.item2 {
+.item6 {
 	background: #3D85C6;
-	width: 50%;
+	width: 30%;
 	height: 115px;
 	line-height: 115px;
 	white-space: nowrap;
+	display: inline-block;
+	position: absolute;
+	top: 22px;
+	right: 22px;
 }
-.item3 {
+.item7 {
 	background: #E06666;
-	width: 50%;
+	width: 30%;
 	height: 115px;
 	line-height: 115px;
 	white-space: nowrap;
+	display: inline-block;
+	position: absolute;
+	bottom: 22px;
+	left: 22px;
 }
-.item4 {
+.item8 {
 	background: #6AA84F;
-	width: 50%;
+	width: 30%;
 	height: 115px;
 	line-height: 115px;
 	white-space: nowrap;
+	display: inline-block;
+	position: absolute;
+	bottom: 22px;
+	right: 22px;
 }
